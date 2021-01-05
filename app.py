@@ -38,7 +38,7 @@ customers_schema = CustomerSchema(many=True)
 
 @app.route('/', methods=['GET'])
 def get():
-    return jsonify({'msg': 'Hellow World'})
+    return jsonify({'msg': 'Hello World'})
 
 # Create a Customer
 @app.route('/customer', methods=['POST'])
