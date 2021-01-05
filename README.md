@@ -50,6 +50,16 @@ exit()
 
 python flask run
 
+### Testing
+
+All the testing must be done on:
+
+ http://127.0.0.1:5000/customer
+
+ and
+
+ http://127.0.0.1:5000/customer/*id*
+
 ## Built With
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The web framework used
