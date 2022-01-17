@@ -16,39 +16,69 @@ Setup "# Database" on ./app.py with your local PostgreSQL config.
 
 All the application requisites are on requirements.txt root folder
 
-### Installing
+### Setting up virtualenv
 
-mkdir flask_api
+```
+mkdir flask_customer_api
+```
 
-cd flask_api
+```
+cd flask_customer_api
+```
 
+```
 pip install virtualenv
+```
 
+```
 python -m venv venv
+```
 
-git clone https://github.com/Regnwulf/flask_api.git
+```
+git clone https://github.com/anapsimao/
+```
 
 To activate venv on Windows:
+```
 \path\to\env\Scripts\activate
+```
 
 To activate venv on Linux:
+```
 source venv/bin/activate
+```
 
+### Requirements install
+
+```
 pip install -r requirements.txt
+```
+
+### Create Database
 
 Create a new Database prompt commands:
 
+```
 python
+```
 
+```
 from app import db
+```
 
+```
 db.create_all()
+```
 
+```
 exit()
+```
 
 ### Running Server
 
+```
 python flask run
+```
 
 ### Testing
 
