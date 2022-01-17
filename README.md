@@ -88,7 +88,7 @@ All the testing must be done on:
 
  and
 
- http://127.0.0.1:5000/customer/*id*
+ http://127.0.0.1:5000/customer/#id
 
 ## Built With
 
